@@ -34,17 +34,10 @@ This is the repository for getting set up with a local dev environment for worki
 
 And voila! You should have a version of Open EdX devstack running on your local machine. All of the services are running at the following links:
 
-
--------------------------------------------------------------
 | Service             | URL                                 |
-=============================================================
+|---------------------|:------------------------------------:|
 | Credentials         | http://localhost:18150/api/v2/      |
--------------------------------------------------------------
 | Catalog/Discovery   | http://localhost:18381/api-docs/    |
--------------------------------------------------------------
 | E-Commerce/Otto     | http://localhost:18130/dashboard/   |
--------------------------------------------------------------
 | LMS                 | http://localhost:18000/             |
--------------------------------------------------------------
 | Studio/CMS          | http://localhost:18010/             |
--------------------------------------------------------------
