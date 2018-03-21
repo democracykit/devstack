@@ -41,3 +41,14 @@ And voila! You should have a version of Open EdX devstack running on your local 
 | E-Commerce/Otto     | http://localhost:18130/dashboard/   |
 | LMS                 | http://localhost:18000/             |
 | Studio/CMS          | http://localhost:18010/             |
+
+Once you're done with working for the day you can stop the services using:
+```
+make stop
+```
+
+## Further Help
+
+If you want to see more detailed documentation navigate to the README in the /deprecated-files folder if you have any further questions.
+
+ 
