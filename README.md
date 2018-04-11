@@ -21,15 +21,15 @@ This is the repository for getting set up with a local dev environment for worki
   ```
 6. The Docker Compose file mounts a host volume for each service's executing code by conducting this command:
   ```
-  make dev.clone
+  sudo make dev.clone
   ```
 7. Run the provision command to configure the superusers (this may take a while):
   ```
-  make dev.provision
+  sudo make dev.provision
   ```
 8. Start the services (this may take up to 60 seconds to appear):
   ```
-  make dev.up
+  sudo make dev.up
   ```
 
 And voila! You should have a version of Open EdX devstack running on your local machine. All of the services are running at the following links:
