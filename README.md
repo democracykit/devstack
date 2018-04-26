@@ -14,7 +14,7 @@ This is the repository for getting set up with a local dev environment for worki
 4. Move into the project folder and create a virtualenv using:
   ```
   virtualenv democracykit
-  source democracykit
+  source democracykit/bin/activate
   ```
 5. Then install requirements like so:
   ```
